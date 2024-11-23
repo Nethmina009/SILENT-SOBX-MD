@@ -197,6 +197,11 @@ if(senderNumber.includes("94706369728")){
 if(isReact) return
 m.react("🧑🏻‍💻")
 }
+
+if (!isReact && senderNumber === botNumber) {
+if (config.OWNER_REACT === 'true')
+    m.react("🧑🏻‍💻");
+}                      
 //============================        
         
 //=================================WORKTYPE=========================================== 
