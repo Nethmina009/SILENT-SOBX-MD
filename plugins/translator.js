@@ -23,7 +23,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *SILENT-SOBX-MD TRANSLATION* 🌍
+🌍 *NETHMINA-OFC-WABOT TRANSLATION* 🌍
 
 🔤 *Original*: ${textToTranslate}
 
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*SILENT-SOBX-MD CREATION*`;
+*NETHMINA OFFICIAL CREATION*`;
 
         return reply(translationMessage);
     } catch (e) {
