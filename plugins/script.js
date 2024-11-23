@@ -13,16 +13,16 @@ try{
 let repo =`
 *╭──────────────●●►*
 > *BOT OWNER:*
-*|* *SILENTLOVER432*
+*|* *NETHMINA OFFICIAL*
 
-> *SILENT-SOBX-MD REPO:*
-*|* *https://github.com/SILENTLOVER40/SILENT-SOBX-MD*
+> *NETHMINA-OFC BOT REPO:*
+*|* *https://github.com/NethminaOfficial/NETHMINA-OFC-WA-BOT*
 
-> *SUPPORT GROUP:*
-*|* *https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s*
+> *MAIN BOT GROUP:*
+*|* *https://chat.whatsapp.com/FUGjjEbLPQp7KHL5jAUJb8*
 *╰──────────────●●►*
 
-> *update command Done*
+> *POWERED BY NETHMINA OFC COMMUNITY*
 `
 await conn.sendMessage(from, { text: repo ,
   contextInfo: {
